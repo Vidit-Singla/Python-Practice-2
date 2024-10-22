@@ -3,7 +3,7 @@ for _ in range(t):
     n = int(input())
     d = {}
     l = []
-    for i in range(5):
+    for i in range(n):
         a,b = map(int,input().split())
         if a <= 8:
             l.append([a,b])
